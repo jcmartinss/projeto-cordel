@@ -1,0 +1,89 @@
+@font-face {
+    font-family: texto;
+    src: url('adelia_3/adelia.otf') format(opentype);
+}
+
+@font-face {
+    font-family: cabeca;
+    src: url('relationship_of_melodrame/Relationship\ of\ mélodrame.ttf') format(truetype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 3.2vw;
+}
+header h1,h2{
+    color: white;
+    font-family: cabeca;
+    font-size: 2.5em;
+}
+main{
+   margin: 0px;
+    background-color: white;
+}
+
+main {
+    font-family: texto;
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 0px;
+}
+footer{
+    background-color: black;
+    margin: 0px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+.imagem{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.481);
+    background-attachment: fixed;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.394);
+    width: 340px;
+    padding: 2px;
+    padding-left: 20px;
+    text-shadow: 1px 1px 0px black;
+}
+    div{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 3.4em;
+        padding-left: 40px;
+    }   
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 3.4em;
+        padding-left: 40px;
+        
+    }
+    #img01{
+        background-image: url(girassol.jpeg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: cover;
+    }
+    #img02{
+        background-image: url(Cartas.jpeg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: cover;
+    }
